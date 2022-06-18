@@ -1,0 +1,10 @@
+import unittest
+form time import sleep
+class Cltest(unittest.Testcase):
+    def setup(self):
+	self.driver=Webdriver.Chrome()	
+	sleep(5)
+    def teardown(self)
+	self.driver.quit()
+if __name__='__main__'
+	unittest.main()
